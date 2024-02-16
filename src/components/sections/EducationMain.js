@@ -8,9 +8,20 @@ class EducationMain extends HTMLElement {
 
   static get styles() {
     return `
+      @media screen and (width <= 375px) {
+        .container {
+          font-size: .5rem;
+        }
+      }
+
+
       h2 {
         font-weight: 700;
         border-bottom: 1px black solid;
+
+        @media screen and (width <= 375px) {
+          font-size: .85rem;
+        }
       }
     `
   }

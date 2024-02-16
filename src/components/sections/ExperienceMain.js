@@ -10,11 +10,19 @@ class ExperienceMain extends HTMLElement {
     return `
       .container {
         margin-bottom: 3rem;
+
+        @media screen and (width <= 375px) {
+          font-size: .5rem;
+        }
       }
 
       h2 {
         font-weight: 700;
         border-bottom: 1px black solid;
+
+        @media screen and (width <= 375px) {
+          font-size: .85rem;
+        }
       }
 
       ul {
@@ -28,7 +36,6 @@ class ExperienceMain extends HTMLElement {
 
       h3 {
         font-weight: 700;
-        font-style: ;
       }
       
       article h3 {
@@ -50,7 +57,10 @@ class ExperienceMain extends HTMLElement {
       time {
         color: #555;
         font-size: .85rem;
-        // min-width: 102px;
+
+        @media screen and (width <= 375px) {
+          font-size: inherit;
+        }
       }
     `
   }

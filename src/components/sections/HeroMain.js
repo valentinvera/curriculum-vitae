@@ -22,24 +22,49 @@ class HeroMain extends HTMLElement {
         justify-content: space-between;
         gap: 1rem;
         margin-bottom: 5rem;
+
+        @media screen and (width <= 375px) {
+          & {
+            flex-direction: column;
+          }
+        }
       }
 
       h1 {
         font-size: 1.875rem;
         font-weight: 700;
+
+        @media screen and (width <= 375px) {
+          font-size: 1.5rem;
+        }
       }
 
       .label {
         margin-bottom: 2rem;
+        
+        @media screen and (width <= 375px) {
+          & {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+          }
+        }
       }
 
-      .flex {
+      .container__texts {
         display: flex;
         flex-direction: column;
 
         & p {
           font-weight: bold;
         }
+
+        @media screen and (width <= 375px) {
+          & {
+            align-items: center;
+          }
+        }
+
       }
     `
   }
@@ -52,13 +77,13 @@ class HeroMain extends HTMLElement {
     this.shadowRoot.innerHTML = `
       <style>${HeroMain.styles}</style>
       <div class="container">
-        <div class="container__texts">
+        <div>
           <h1>
             ${name}
           </h1>
           <p class="label">${label}</p>
 
-          <div class="flex">
+          <div class="container__texts">
             <p>Contacto:</p>
             <span>${email}</span>
             <span>${phone}</span>
