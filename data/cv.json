@@ -1,0 +1,136 @@
+{
+  "basics": {
+    "name": "Gastón Jesús Vera",
+    "label": "Oficial Cañista",
+    "image": "/assets/carnet.webp",
+    "email": "gastonvera1974@gmail.com",
+    "phone": "+54 9 3487-709350"
+  },
+  "work": [
+    {
+      "name": "Techint (Ingeniería y Construcción)",
+      "position": "Oficial Cañista",
+      "startDate": "2023-11",
+      "endDate": null,
+      "summary": "Prefabricado y montaje en piping y yacimiento la calera."
+    },
+    {
+      "name": "Axion Energy Argentina",
+      "position": "Oficial Cañista",
+      "startDate": "2022-02",
+      "endDate": "2023-03",
+      "summary": "Prefabricado de cañerías y montaje en planta reconocimiento de palmor, alta presión y isométricos en pulgadas: 14'', 16'', 24''. SCH 180."
+    },
+    {
+      "name": "Atucha 1 (NASA)",
+      "position": "Oficial Cañista",
+      "startDate": "2019-10",
+      "endDate": "2019-12",
+      "summary": "Parada de planta, prefabricados y montaje de cañerías en acero de carbono e inoxidable para la Empresa Electro Ingeniería."
+    },
+    {
+      "name": "Atucha 2",
+      "position": "Oficial Cañista",
+      "startDate": "2019-04",
+      "endDate": "2019-08",
+      "summary": "Prefabricados de montaje de cañerías en acero de carbono e inoxidable para la Empresa Uron."
+    },
+    {
+      "name": "Toyota Argentina",
+      "position": "Area de Mantenimiento",
+      "startDate": "2009-05",
+      "endDate": "2016-07",
+      "summary": "Reparación de cañerías en proceso de líneas. Montajes mecanicos y trabajos de soldadura en taller general de Planta (TRY Team)."
+    },
+    {
+      "name": "Termoelectrica Manuel Belgrano (Luis Schat)",
+      "position": "Oficial Cañista",
+      "startDate": "2018-04",
+      "endDate": "2019-04",
+      "summary": "Prefabricados y montajes de cañerías de: 4'', 6'', 14'', 24''."
+    },
+    {
+      "name": "Metal Uno",
+      "position": "Oficial Cañista",
+      "startDate": "2008-10",
+      "endDate": "2009-04",
+      "summary": "Prefabricados en talleres de Piping. Trabajos en cañerías de acero de carbono de: 3'', 4'', 6'', 14'', 24''. Realizado de Codo en gajos para conductos. (Isométricos y planos)."
+    },
+    {
+      "name": "Milena Construcciones",
+      "position": "Oficial Cañista",
+      "startDate": "2008-02",
+      "endDate": "2008-10",
+      "summary": "Cañerías en acero de carbono de: 2'', 3'', 6'', 10'', 14'', 24'', 36''. Conocimientos en isométricos y planos."
+    },
+    {
+      "name": "Valco S.A.",
+      "position": "Oficial Cañista",
+      "startDate": "2007-06",
+      "endDate": "2007-12",
+      "summary": "Prefabricados en acero de carbono e inoxidable. Sanatorios para empresa Isenbeck. Cervecería en Zárate. Cañerías roscadas de isométricos y planos."
+    },
+    {
+      "name": "Jusa S.A.",
+      "position": "Oficial Cañista",
+      "startDate": "2005-06",
+      "endDate": "2006-03",
+      "summary": "Prefabricados en cañerías de: 2'', 3'', 4'', 18'', 24'', para Petrobas Campana. Conocimientos en carpintería, metalica e interpretación de planos."
+    },
+    {
+      "name": "Techint S.A.C.I.",
+      "position": "Oficial Cañista Especializado",
+      "startDate": "2005-11",
+      "endDate": "2006-04",
+      "summary": "Parada de planta Siderca Campana. Trabajos de cañerías de acero de carbono: 8'', 10'', 14'', 24'', 50''. Sector Laco 1 y Laco 2."
+    },
+    {
+      "name": "Electro Ingeniería S.A.",
+      "position": "Oficial Cañista",
+      "startDate": "2006-09",
+      "endDate": "2007-03",
+      "summary": "Trabajos para Atucha 1 Nasa. Cañerías de alta presión. SCH 180. Vicel. Jota: 6'', 8'', 14'', 24''. Isométricos y planos de planta."
+    },
+    {
+      "name": "Interacero S.A.",
+      "position": "Oficial Cañista",
+      "startDate": "2003-06",
+      "endDate": "2004-01",
+      "summary": "Trabajos para la Empresa Esso Campana Refinería Axion energy. Cañerías: 2'', 3'', 14'', 20''. SCH 180. Alta presión. Corte con pantografo. Conocimientos de isométricos y planos."
+    },
+    {
+      "name": "Favaroto S.A.",
+      "position": "Oficial Cañista",
+      "startDate": "2004-03",
+      "endDate": "2004-10",
+      "summary": "Prefabricado en planta y Montaje para la empresa Celulosa Argentina."
+    },
+    {
+      "name": "Panepinto y Weber",
+      "position": "Oficial Cañista",
+      "startDate": "2004-04",
+      "endDate": "2004-10",
+      "summary": "Prefabricados, Trabajos en Planta de Acero Inoxidable. Cañerías: 1'', 3'', 5'' 6'', 8'', 12''. Cervecería Brahma Pilar."
+    },
+    {
+      "name": "Grillo Constructora Zárate",
+      "position": "Categoría Oficial",
+      "startDate": "2000-04",
+      "endDate": "2002-06",
+      "summary": "Carpintería Metalica, Conocimientos de planos y Montaje de plataformas bastidores."
+    },
+    {
+      "name": "Contreras Hnos",
+      "position": "Oficial Amolador",
+      "startDate": "1998-07",
+      "endDate": "2001-09",
+      "summary": "Prefabricados de Carpintería Metalica."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Escuela de Educación Secundaria Técnica N°1 Almirante Guillermo Brown",
+      "certificate": "Técnico Mecánico"
+    }
+  ]
+}
