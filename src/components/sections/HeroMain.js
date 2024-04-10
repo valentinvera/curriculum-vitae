@@ -1,6 +1,6 @@
 import { basics } from "../../../data/cv.json"
 
-const { name, label, image, email, phone } = basics
+const { name, label, image, email, phone, location } = basics
 
 class HeroMain extends HTMLElement {
   constructor() {
@@ -39,14 +39,29 @@ class HeroMain extends HTMLElement {
         }
       }
 
-      .label {
+      .container__description {
+        display: flex;
         margin-bottom: 2rem;
-        
-        @media screen and (width <= 375px) {
-          & {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 1rem;
+
+          @media screen and (width <= 375px) {
+            .label {
+              display: flex;
+              justify-content: center;
+              margin-bottom: 1rem;
+            }
+          }
+        }
+
+        .container__location {
+          display: flex;
+          margin-left: .35rem;
+
+          .text__region {
+            margin-right: .25rem;
+          }
+          
+          .text__province {
+            margin-right: .25rem;
           }
         }
       }
@@ -81,8 +96,16 @@ class HeroMain extends HTMLElement {
           <h1>
             ${name}
           </h1>
-          <p class="label">${label}</p>
 
+          <div class="container__description">
+            <p class="label">${label}</p>
+            <div class="container__location">
+              <p class="text__region">${location.region}</p>
+              <p class="text__province">${location.province}</p>
+              <p>${location.city}</p>
+            </div>
+          </div>
+          
           <div class="container__texts">
             <p>Contacto:</p>
             <span>${email}</span>
