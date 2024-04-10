@@ -1,10 +1,15 @@
 {
   "basics": {
     "name": "Gastón Jesús Vera",
-    "label": "Oficial Cañista",
+    "label": "Oficial Cañista.",
     "image": "/assets/carnet.webp",
     "email": "gastonvera1974@gmail.com",
-    "phone": "+54 9 3487-709350"
+    "phone": "+54 9 3487-709350",
+    "location": {
+      "region": "Argentina",
+      "province": "Buenos Aires,",
+      "city": "Zárate"
+    }
   },
   "work": [
     {
